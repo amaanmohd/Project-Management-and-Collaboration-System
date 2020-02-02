@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <a mat-button *ngIf="!this.stitch.client.auth.isLoggedIn" class="icon" [routerLink]="['/']" >Get Organised</a>
+    <span class="spaced"></span>
+    <a mat-button *ngIf="!this.stitch.client.auth.isLoggedIn" class="icon" [routerLink]="['/login']" >Login</a>
+    <a mat-button *ngIf="this.stitch.client.auth.isLoggedIn" class="icon" [routerLink]="['/dashboard']" >Dashboard</a>
+    <a mat-button *ngIf="this.stitch.client.auth.isLoggedIn" class="icon" [routerLink]="['/profile']" >Profile</a>
+
+    <a mat-button *ngIf="this.stitch.client.auth.isLoggedIn" class="icon" (click)="logOutClick()" href="#" >Log Out</a>
+
+</mat-toolbar>

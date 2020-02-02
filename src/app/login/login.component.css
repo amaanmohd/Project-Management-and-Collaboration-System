@@ -1,0 +1,26 @@
+.card{
+  padding: 40px;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  z-index: 1;
+}
+.input{
+  width: 300px;
+  margin-left: 40px;
+}
+.head{
+  color:rgb(0, 0, 0);
+  padding-top: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+.back{
+  height:100%;
+  background-size:cover;
+  width:100%;
+  background-image:url('/assets/images/desk.jpg');
+}
+

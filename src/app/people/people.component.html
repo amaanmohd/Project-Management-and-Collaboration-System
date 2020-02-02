@@ -1,0 +1,48 @@
+ <div class="back">
+    <h3>What are you Working on?</h3>
+    <mat-card class="card">
+      <div class="form" >
+<form action="" >
+       <mat-form-field class="text">
+            <mat-label> <mat-icon>email</mat-icon> Enter Email</mat-label>
+            <input matInput placeholder="Email" #email>
+       </mat-form-field>
+        <mat-form-field class="text">
+           <mat-label> <mat-icon>account_box</mat-icon> Name</mat-label>
+                <input matInput placeholder="" #name >
+            </mat-form-field>
+              <button mat-button color="primary" (click)="add(email.value, name.value)" >Add</button>
+             </form>
+      </div>
+      <mat-divider></mat-divider>
+
+      <div *ngFor="let e of member">
+        <div class="p">
+
+          <div class="a">
+
+
+            <mat-form-field>
+                <mat-select placeholder="Select Role" #role (selectionChange)="update(e.email, role.value)">
+                <mat-option *ngFor="let role of roles" [value]="role.value">
+                  {{role.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        <div class="a1">{{e.email}}</div>
+        <div class="a2">{{e.name}}</div>
+        <button mat-button (click)="remove(e.email)" class="a3">remove</button>
+
+        </div>
+             </div>
+             <mat-divider class="d"></mat-divider>
+
+             <div class="a4">
+
+                <button mat-raised-button (click)="addPeople()">Next</button>
+             </div>
+
+    </mat-card>
+</div>
+

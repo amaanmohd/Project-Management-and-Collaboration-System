@@ -1,0 +1,36 @@
+.btn{
+    margin: 5px;
+}
+.card{
+    width: 370px;
+    height: 370px;
+    margin: 10px;
+
+}
+.head{
+  margin: 12px;
+}
+#left{
+  float: left;
+}
+
+.back{
+  background-color: #E7EAF0;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+.card-div{
+   height: 420px;
+}
+.viewport{
+  height: 90px;
+  width: 370px;
+}
+.viewport1{
+  height: 300px;
+  width: 370px;
+}
+.spaced{
+  flex: auto;
+}

@@ -1,0 +1,16 @@
+<div class="back">
+  <div class="head">Add info</div>
+       <mat-card class="card">
+              <form class="" >
+                    <mat-form-field appearance="outline" class="input">
+                      <mat-label>First Name</mat-label>
+                      <input matInput placeholder="First Name" value="" [(ngModel)]="firstname" class="input" name="firstname">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="input">
+                      <mat-label>Last Name</mat-label>
+                      <input matInput placeholder="Last Name" value="" [(ngModel)]="lastname" class="input" name="lastname">
+                    </mat-form-field>
+                   <button mat-raised-button color="primary" class="input" (click)="saveInfo()">Save</button>
+                </form>
+          </mat-card>
+          </div>

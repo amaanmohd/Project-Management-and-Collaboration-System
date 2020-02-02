@@ -1,0 +1,16 @@
+<body>
+  <div>
+    <h2 class="name"><mat-icon>list_alt</mat-icon> Task:&nbsp;&nbsp; {{task_name}} <br>
+        <mat-icon>description</mat-icon> Description:&nbsp;&nbsp; {{description}} <br>
+        <mat-icon>date_range</mat-icon> Due Date:&nbsp;&nbsp; {{date}} <br>
+        <mat-icon>folder_open</mat-icon> File:
+      </h2>
+
+  <input type="file" style="display: none" (change) = 'onFileSelected($event)' #fileInput>
+  <button mat-raised-button (click)="fileInput.click()" color= "primary"><mat-icon>attach_file</mat-icon> Attach File</button>
+  <button (click)="upload()">upload</button>
+
+  <button (click)="getFile()">get</button>
+        <div ></div>
+  </div>
+  </body>

@@ -1,0 +1,56 @@
+.back{
+  background-color: #E7EAF0;
+  padding: 10px;
+  height: 100%;
+}
+.card{
+  height: 500px;
+  width: 700px;
+  left: 25%;
+}
+.text{
+  position: relative ;
+  padding: 10px;
+  width: 250px;
+}
+.scard{
+  background-color: #E7EAF0;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
+.form{
+padding: 10px;
+position: relative;
+}
+.p{
+  padding: 20px;
+  position: relative;
+}
+.a{
+  position: absolute;
+}
+.a1{
+  position: absolute;
+  margin-left: 220px;
+}
+.a2{
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+.a3{
+  position: absolute;
+  margin-left: 520px;
+  margin-top: 30px;
+  padding: 5px;
+}
+.a4{
+  position: relative;
+  margin-left: 550px;
+  margin-top: 70px;
+}
+.d{
+  position: relative;
+  margin-top: 60px;
+}

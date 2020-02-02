@@ -1,0 +1,26 @@
+.back{
+  background-color: #E7EAF0;
+  padding: 10px;
+  height: 100%;
+}
+h3{
+  text-align: center;
+}
+.card{
+  height: 500px;
+  width: 600px;
+  left: 25%;
+}
+.text{
+  position: relative ;
+  padding: 10px;
+  width: 400px;
+}
+.date{
+  position: relative ;
+  padding: 10px;
+}
+
+.form{
+padding: 30px;
+}

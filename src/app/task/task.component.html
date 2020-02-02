@@ -1,0 +1,30 @@
+<div class="body">
+  <mat-form-field class="task">
+    <input matInput placeholder="Task Name" [(ngModel)]="taskName" ngDefaultControl>
+  </mat-form-field>
+  <mat-form-field class="details">
+    <textarea matInput placeholder="Description"  [(ngModel)]="description" ngDefaultControl></textarea>
+  </mat-form-field>
+  <mat-form-field class="select">
+      <mat-label>Assign To</mat-label>
+    <mat-select [formControl]="toppings" multiple>
+      <mat-option *ngFor="let member of members" [value]="member.value" [(ngModel)]="member1" ngDefaultControl>
+        {{member.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="priority">
+    <mat-select placeholder="Priority">
+      <mat-option *ngFor="let priority of priorities" [value]="priority.value" [(ngModel)]="priority1" ngDefaultControl>
+        {{priority.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="date">
+    <input matInput [matDatepicker]="picker" placeholder="Choose a date" [(ngModel)]="date" ngDefaultControl>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+<button mat-raised-button class="next" (click)="setTask()">Next</button>
+<button mat-button class="cancle">Cancle</button>
+</div>

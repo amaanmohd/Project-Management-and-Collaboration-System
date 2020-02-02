@@ -1,0 +1,14 @@
+.back{
+background-color: #E7EAF0;
+height: 100%;
+padding: 20px;
+}
+.head{
+  align-self: center;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.input{
+  width: 250px;
+}

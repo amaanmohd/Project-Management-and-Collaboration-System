@@ -1,0 +1,37 @@
+.body{
+  padding: 50px;
+}
+.task{
+  width: 500px;
+  position: absolute;
+}
+.details{
+  width: 500px;
+  position: absolute;
+  margin-top: 150px;
+}
+.select{
+  position: absolute;
+  margin-top: 150px;
+}
+.priority{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.date{
+  position: absolute;
+  margin-top: 70px;
+
+}
+.next{
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 450px;
+}
+.cancle{
+
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 370px;
+}

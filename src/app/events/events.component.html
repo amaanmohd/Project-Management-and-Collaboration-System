@@ -1,0 +1,15 @@
+<div class="body">
+  <mat-form-field class="task">
+    <input matInput placeholder="Event Name" [(ngModel)]="event_name" ngDefaultControl>
+  </mat-form-field>
+  <mat-form-field class="date">
+    <input matInput [matDatepicker]="picker" placeholder="Choose a date" [(ngModel)]="date" ngDefaultControl>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field class="select">
+    <input placeholder="Time" matInput type="time" value="09:00 AM ">
+  </mat-form-field>
+ <button mat-raised-button class="next" (click)="save()" color="primary">Save</button>
+<button mat-button class="cancle" [routerLink]="['/dashboard']" color="warn" >Cancle</button>
+</div>

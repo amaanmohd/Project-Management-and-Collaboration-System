@@ -1,0 +1,6 @@
+<mat-nav-list>
+  <div *ngFor="let item of projects">
+  <a [routerLink]="['/task']"  mat-list-item  (click)="openLink($event, item.project_name)"><mat-icon>folder</mat-icon>&nbsp; {{item.project_name}}
+  </a>
+  </div>
+</mat-nav-list>

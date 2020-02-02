@@ -1,0 +1,32 @@
+<div class="back">
+    <h3>Add Project</h3>
+    <mat-card class="card">
+      <div class="form">
+
+          <mat-form-field class="text">
+              <mat-label> <mat-icon>folder</mat-icon> Group</mat-label>
+                            <input matInput placeholder="Group" [(ngModel)]="group">
+               </mat-form-field>
+
+        <mat-form-field class="text">
+           <mat-label> <mat-icon>create_new_folder</mat-icon> Project Name</mat-label>
+                         <input matInput placeholder="Project Name" [(ngModel)]="project">
+            </mat-form-field>
+
+            <mat-form-field class="text">
+                <mat-label> <mat-icon>description</mat-icon> Description</mat-label>
+                <textarea matInput placeholder="" [(ngModel)]="description"></textarea>
+            </mat-form-field>
+            <mat-form-field class="date">
+              <input matInput [matDatepicker]="picker" placeholder="Choose a date" [(ngModel)]="date">
+              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-card-actions>
+                <button mat-button (click)="createProject()" >Next</button>
+              </mat-card-actions>
+
+      </div>
+    </mat-card>
+</div>
+
