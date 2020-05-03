@@ -1,3 +1,15 @@
+# Technology Used
+Frontend framework – Angular 7
+Database – MongoDB
+Backend – MongoDB Stitch (BaaS)
+
+# Feature
+ User can be verified with gmail account.
+ User can make group of team members.
+ Task and project can be assign to team members.
+ Email notification send to each team member.
+ Team member can send report to any member.
+
 # Ptm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
