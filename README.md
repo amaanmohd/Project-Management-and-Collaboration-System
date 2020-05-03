@@ -1,22 +1,20 @@
-# Technology Used
-Frontend framework – Angular 7
+# It is a Web App project management and collaboration system for teams. It allows users to assign tasks to people, set milestones, schedule events on a calendar and use discussion boards.
 
-Database – MongoDB
+## Technology Used
+* Front-end framework : Angular
+* Database : MongoDB
+* Back-end : MongoDB Stitch (BaaS)
+* AWS: S3, SES
 
-Backend – MongoDB Stitch (BaaS)
+## Features
+* User can be verified with gmail account
+* Team Collaboration - Invite team members, chat/communicate and share the workload
+* Tasks - Shared task lists with sub-tasks
+* Email notification can be send to each team member
+* File Storage - Advanced file management
+* Calendar - Event scheduling
 
-# Features
- User can be verified with gmail account.
- 
- User can make group of team members.
- 
- Task and project can be assign to team members.
- 
- Email notification send to each team member.
- 
- Team member can send report to any member.
-
-# Ptm
+## pmcs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
