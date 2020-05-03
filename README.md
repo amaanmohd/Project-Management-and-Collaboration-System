@@ -5,7 +5,7 @@ Database – MongoDB
 
 Backend – MongoDB Stitch (BaaS)
 
-# Feature
+# Features
  User can be verified with gmail account.
  
  User can make group of team members.
